@@ -4,7 +4,6 @@ import org.sofka.abstracts.AbstractFile;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
-import java.io.IOException;
 import java.io.PrintWriter;
 
 public class SaveRecordPlayer extends AbstractFile {
@@ -13,8 +12,8 @@ public class SaveRecordPlayer extends AbstractFile {
             file = new FileWriter("RegistroUsuario.txt", true);
             buffer = new BufferedWriter(file);
             printWrite = new PrintWriter(buffer);
-        }catch (IOException e) {
-            throw new RuntimeException(e);
+        }catch (Exception e) {
+            throw new RuntimeException(null, e);
         }
     }
 }
