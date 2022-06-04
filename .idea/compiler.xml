@@ -10,6 +10,8 @@
         <module name="laboratorio-java" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="17" />
+    <bytecodeTargetLevel target="17">
+      <module name="laboratorio-java" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
