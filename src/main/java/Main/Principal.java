@@ -1,6 +1,6 @@
 package Main;
 
-import Vistas.Index;
+import Vista.Index;
 
 public class Principal {
 

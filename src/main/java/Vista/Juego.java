@@ -1,4 +1,4 @@
-package Vistas;
+package Vista;
 
 import Data.PreguntaDAO;
 import Data.PuntajeDAO;
@@ -284,7 +284,7 @@ public class Juego extends javax.swing.JFrame {
                     Puntajedao.addPointIncomplete(newPlayer);
                 }
                 pointsCount = 0;
-                Vistas.Puntaje sc = new Vistas.Puntaje();
+                Vista.Puntaje sc = new Vista.Puntaje();
                 this.dispose();
             }
         } else {
@@ -301,7 +301,7 @@ public class Juego extends javax.swing.JFrame {
                 }
                 roundCount = 1;
                 pointsCount = 0;
-                Vistas.Puntaje sc = new Vistas.Puntaje();
+                Vista.Puntaje sc = new Vista.Puntaje();
                 this.dispose();
             } else {
                 pointsCount -= 100;
@@ -316,7 +316,7 @@ public class Juego extends javax.swing.JFrame {
                     Puntajedao.addPointIncomplete(newPlayer);
                 }
                 pointsCount = 0;
-                Vistas.Puntaje sc = new Vistas.Puntaje();
+                Vista.Puntaje sc = new Vista.Puntaje();
                 this.dispose();
             }
         }
@@ -345,7 +345,7 @@ public class Juego extends javax.swing.JFrame {
                     Puntajedao.addPointIncomplete(newPlayer);
                 }
                 pointsCount = 0;
-                Vistas.Puntaje sc = new Vistas.Puntaje();
+                Vista.Puntaje sc = new Vista.Puntaje();
                 this.dispose();
             }
         } else {
@@ -362,7 +362,7 @@ public class Juego extends javax.swing.JFrame {
                 }
                 roundCount = 1;
                 pointsCount = 0;
-                Vistas.Puntaje sc = new Vistas.Puntaje();
+                Vista.Puntaje sc = new Vista.Puntaje();
                 this.dispose();
             } else {
                 pointsCount -= 100;
@@ -377,7 +377,7 @@ public class Juego extends javax.swing.JFrame {
                     Puntajedao.addPointIncomplete(newPlayer);
                 }
                 pointsCount = 0;
-                Vistas.Puntaje sc = new Vistas.Puntaje();
+                Vista.Puntaje sc = new Vista.Puntaje();
                 this.dispose();
             }
         }
@@ -406,7 +406,7 @@ public class Juego extends javax.swing.JFrame {
                     Puntajedao.addPointIncomplete(newPlayer);
                 }
                 pointsCount = 0;
-                Vistas.Puntaje sc = new Vistas.Puntaje();
+                Vista.Puntaje sc = new Vista.Puntaje();
                 this.dispose();
             }
         } else {
@@ -423,7 +423,7 @@ public class Juego extends javax.swing.JFrame {
                 }
                 roundCount = 1;
                 pointsCount = 0;
-                Vistas.Puntaje sc = new Vistas.Puntaje();
+                Vista.Puntaje sc = new Vista.Puntaje();
                 this.dispose();
             } else {
                 pointsCount -= 100;
@@ -438,7 +438,7 @@ public class Juego extends javax.swing.JFrame {
                     Puntajedao.addPointIncomplete(newPlayer);
                 }
                 pointsCount = 0;
-                Vistas.Puntaje sc = new Vistas.Puntaje();
+                Vista.Puntaje sc = new Vista.Puntaje();
                 this.dispose();
             }
         }
@@ -467,7 +467,7 @@ public class Juego extends javax.swing.JFrame {
                     Puntajedao.addPointIncomplete(newPlayer);
                 }
                 pointsCount = 0;
-                Vistas.Puntaje sc = new Vistas.Puntaje();
+                Vista.Puntaje sc = new Vista.Puntaje();
                 this.dispose();
             }
         } else {
@@ -484,7 +484,7 @@ public class Juego extends javax.swing.JFrame {
                 }
                 roundCount = 1;
                 pointsCount = 0;
-                Vistas.Puntaje sc = new Vistas.Puntaje();
+                Vista.Puntaje sc = new Vista.Puntaje();
                 this.dispose();
             } else {
                 pointsCount -= 100;
@@ -499,7 +499,7 @@ public class Juego extends javax.swing.JFrame {
                     Puntajedao.addPointIncomplete(newPlayer);
                 }
                 pointsCount = 0;
-                Vistas.Puntaje sc = new Vistas.Puntaje();
+                Vista.Puntaje sc = new Vista.Puntaje();
                 this.dispose();
             }
         }
@@ -518,7 +518,7 @@ public class Juego extends javax.swing.JFrame {
         }
         roundCount = 1;
         pointsCount = 0;
-        Vistas.Puntaje sc = new Vistas.Puntaje();
+        Vista.Puntaje sc = new Vista.Puntaje();
         this.dispose();
     }//GEN-LAST:event_exitBtnActionPerformed
 
